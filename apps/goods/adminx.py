@@ -18,7 +18,7 @@ class GoodsAdmin(object):
                    "shop_price", "is_new", "is_hot", "add_time", "category__name"]
     #富文本编辑器
     style_fields = {"goods_desc": "ueditor"}
-
+    list_editable = ['is_hot','shop_price','click_num','fav_num','goods_num']
     #在添加商品的时候可以添加商品图片
     class GoodsImagesInline(object):
         model = GoodsImage
@@ -32,6 +32,7 @@ class GoodsCategoryAdmin(object):
     list_display = ["name", "category_type", "parent_category",'is_tab', "add_time"]
     list_filter = ["category_type", "parent_category", "name"]
     search_fields = ['name', ]
+
 
 
 class GoodsBrandAdmin(object):
