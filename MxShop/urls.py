@@ -52,7 +52,7 @@ urlpatterns = [
     #文件
     path('media/<path:path>',serve,{'document_root':MEDIA_ROOT}),
     #drf文档，title自定义
-    path('docs',include_docs_urls(title='仙剑奇侠传')),
+    path('docs',include_docs_urls(title='电商后端服务API')),
     #商品列表页
     re_path('^', include(router.urls)),
     # token

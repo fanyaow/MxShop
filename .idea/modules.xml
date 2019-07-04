@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MxShop.iml" filepath="$PROJECT_DIR$/.idea/MxShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vueshop/.idea/vueshop.iml" filepath="$PROJECT_DIR$/../vueshop/.idea/vueshop.iml" />
     </modules>
   </component>
 </project>

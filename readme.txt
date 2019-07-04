@@ -21,6 +21,8 @@ npm -v   cnpm -v  查看npm版本
 
 全局安装vue-cli
 　　npm install --global vue-cli
+创建项目
+vue init webpack  ”项目名称“
 启动项目
     npm run dev
 项目目录详解
