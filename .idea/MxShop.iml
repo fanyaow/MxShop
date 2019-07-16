@@ -26,6 +26,8 @@
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7 (MxShop)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="online-store" />
+    <orderEntry type="module" module-name="online-store" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

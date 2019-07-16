@@ -28,8 +28,8 @@ SECRET_KEY = '#r@h(x*x2jc5o^-y#9=9w)o7iiv7jd^zxp@1s5*nj-n*s)v#o*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = [ ]
+ALLOWED_HOSTS = ['*']
+
 
 #重载系统的用户，让UserProfile生效
 AUTH_USER_MODEL = 'users.UserProfile'
